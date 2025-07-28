@@ -31,7 +31,7 @@ async function bootstrap(): Promise<void> {
       'https://rememberingtime.net',
       'http://localhost:3000',
     ],
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
     allowedHeaders: 'Content-Type, Accept, Authorization',
     credentials: true,
   });
